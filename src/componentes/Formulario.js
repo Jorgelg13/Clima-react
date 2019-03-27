@@ -13,7 +13,8 @@ class Formulario extends Component {
             pais : this.paisRef.current.value
         }
         //enviar los props
-        console.log(respuesta);
+        //console.log(respuesta);
+        this.props.datosConsulta(respuesta);
         //resetear el formulario
     }
 
